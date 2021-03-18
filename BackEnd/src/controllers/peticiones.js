@@ -5,7 +5,7 @@ const url = process.env.URL
 const api_key = process.env.APIKEY
 
 class PeticionesController{
-    async peticion (res, data) {
+    async peticionPost (res, data) {
         respuesta = `{'respuesta':'tadaaaaa'}`
     
         fetch(url, { method: 'POST', body: data, headers: { 'Content-Type': 'application/json' } })
