@@ -1,0 +1,1 @@
+curl -X POST -u "apikey:F8MIjiAgoyJUwPFxzcltJitdfJqRck_Z34PvrJJ79Xnu" --header "Content-Type: application/json" --data-binary @D:/sbrio/Documents/ITESO/10SEMESTRE/Cloud/Examen1/BackEnd/tone.json "https://api.us-east.tone-analyzer.watson.cloud.ibm.com/instances/664c1f9e-70b0-424b-b6bf-43c908f0cd62/v3/tone?version=2017-09-21"
