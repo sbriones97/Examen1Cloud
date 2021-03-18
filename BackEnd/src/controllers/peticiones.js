@@ -1,4 +1,3 @@
-const fetch = require("node-fetch")
 const dotenv = require('dotenv')
 const ToneAnalyzerV3 = require('ibm-watson/tone-analyzer/v3');
 const { IamAuthenticator } = require('ibm-watson/auth');

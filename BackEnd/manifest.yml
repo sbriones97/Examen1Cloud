@@ -1,0 +1,7 @@
+---
+applications:
+  - name: tone-analyzer-salvador-briones
+    random-route: true
+    command: npm run start
+    instances: 1
+    memory: 256M
